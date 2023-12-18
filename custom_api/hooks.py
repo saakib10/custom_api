@@ -47,6 +47,9 @@ app_license = "MIT"
 
 # Generators
 # ----------
+website_route_rules = [
+    {"from_route": "/api/method/custom_api.custom_api.item.get_item_data", "to_route": "method", "defaults": {"command": "custom_api.custom_api.item.get_item_data"}}
+]
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
